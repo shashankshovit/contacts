@@ -1,0 +1,151 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+body {
+    width: 100%;
+    background-color: #e6ecff;
+    position: relative;
+}
+
+input {
+  width: 300px;
+}
+body #bodyContent {
+    text-align: center;
+    /*background-color: yellow;*/
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    z-index: 1;
+}
+
+body #bodyContent #heading {
+    /*background-color: blue;*/
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+body #bodyContent .menu {
+    width: 80%;
+    background-color: #BBBBBB;
+    margin: auto;
+}
+
+body #bodyContent ul {
+}
+
+body #bodyContent ul li {
+    width: 175px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #8A0EFF;
+    border-radius: 4px;
+    list-style-type: none;
+    float: left;
+    padding: 25px 5px 0px;
+    margin: auto 5px;
+    color: #F4EDFF;
+    cursor: pointer;
+}
+
+body #bodyContent .add_contact {
+  color: white;
+   display: none; 
+  width: 75%;
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(91, 127, 194, 0.83);
+  position: relative;
+  z-index: 5;
+  top: 40px;
+  border-radius: 15px;
+}
+
+body #bodyContent .add_contact #basic_info {
+    top: -90px;
+    position: relative;
+    left: -280px;
+    color: #EFA6F7;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#bodyContent .add_contact #details {
+  width: 100%;
+  /*background-color: rgb(148, 108, 190);*/
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.add_contact #details .more_details_tab {
+    /*background-color: red;*/
+}
+
+body #bodyContent .add_contact #details .more_details_tab ul {
+    
+}
+
+body #bodyContent .add_contact #details .more_details_tab ul li {
+  width: 44%;
+  height: 44px;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #247193;
+  border-radius: 4px;
+  list-style-type: none;
+  float: left;
+  color: #F4EDFF;
+  cursor: pointer;
+}
+
+.more_details_area {
+  display: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: rgba(43, 81, 118, 0.7);
+  top: 50px;
+  border-radius: 6px;
+  z-index: 15;
+  padding-bottom: 70px;
+}
+.add_contact #add_details {
+  z-index: 20;
+  width: 53%;
+  bottom: -50px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #24935C;
+  border-radius: 4px;
+  list-style-type: none;
+  color: #F4EDFF;
+  cursor: pointer;
+  margin: 20px auto 0px;
+  position: relative;
+}
+
+.add_contact #details .more_details_area .more {
+  background-color: rgb(11, 55, 43);
+  cursor: pointer;
+  padding: 9px;
+  float: none;
+  border-radius: 4px;
+  border: 1px solid;
+  bottom: 15px;
+  width: 200px;
+  height: 20px;
+  left: 31%;
+  position: absolute;
+}

@@ -1,0 +1,56 @@
+<html>
+<head>
+
+</head>
+<body>
+    <div id="bodyContent">
+      <div id="heading">
+        Contacts Management
+      </div>
+      <div class="menu">
+        <ul>
+          <li id="home">Home</li>
+          <li id="add">Add Contact</li>
+        </ul>
+        
+      </div>
+
+      <div class="add_contact">
+        <span id="basic_info">Basic info</span>
+        <form>
+          <label>First name :</label>
+          <input type="textbox" id="first_name" class="name" maxlength="15">
+          <br>
+          <label>Last name :</label>
+          <input type="textbox" id="last_name" class="name" maxlength="15">
+
+          <div id="details">  <!-- .add_contact #details -->
+
+            <div class="more_details_tab">  <!-- .add_contact #details .more_details_tab -->
+
+              <ul>
+                <li id="address">Address</li>   <!-- .add_contact #details .more_details_tab ul #address -->
+                <li id="phone">Telephone</li>   <!-- .add_contact #details .more_details_tab ul #phone -->
+              </ul>
+            </div>
+
+              <div id="addresses" class="more_details_area">  <!-- .add_contact #details #addresses -->
+                <!-- <label>Address</label>
+                <input type="textbox" maxlength="100">
+                 -->
+                <div id="more_address" class="more">Add Address Field</div>
+              </div>
+              <div id="calls" class="more_details_area">  <!-- .add_contact #details #calls -->
+                <div id="more_phone" class="more">Add Contact Field</div>
+              </div>
+
+
+          </div><!-- details -->
+
+          <input id="add_details" type="submit" value="Add Information">  <!-- .add_contact #add_details -->
+
+        </form>
+      </div>
+    </div>
+</body>
+</html>
